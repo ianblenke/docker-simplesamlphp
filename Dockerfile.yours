@@ -1,0 +1,5 @@
+FROM ianblenke/simplesamlphp
+MAINTAINER Ian Blenke <ian@blenke.com>
+
+ADD config/ config/
+ADD metadata/ metadata/
